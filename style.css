@@ -1,0 +1,404 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f5f5f7;
+  overflow-x: hidden;
+}
+ .dot {
+  width: 40px;
+  /* height: 40px; */
+  border-radius: 50%;
+  font-size: 40px;
+  color: #fe6d0b;
+}
+.navbar-brand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.navbar-nav .nav-link{
+padding:0px 25px;
+font-weight:500;
+}
+.contact{
+  padding-right: 10px;
+} 
+ 
+
+
+
+
+.hero-section{
+padding:120px 0;
+background:#f5f5f5;
+}
+
+.hero-text h1{
+font-size:55px;
+font-weight:700;
+}
+
+.hero-text span{
+color:#ff6a00;
+}
+
+.hero-img img{
+max-width:420px;
+border-radius:50%;
+background:#ff6a00;
+padding:30px;
+}
+
+/* Tablet */
+@media (max-width:991px){
+
+.hero-text{
+text-align:center;
+margin-bottom:40px;
+}
+
+.hero-text h1{
+font-size:40px;
+}
+
+.hero-img img{
+max-width:300px;
+
+}
+
+}
+
+/* Mobile */
+@media (max-width:576px){
+
+.hero-text h1{
+font-size:32px;
+}
+
+.hero-img img{
+max-width:250px;
+
+}
+
+}
+
+
+.btn-login { 
+  background: #0b0b2a;
+  color: white;
+  border-radius: 25px;
+  padding: 6px 18px;
+}
+
+.btn-signup {
+  font-weight: 500;
+}
+
+/* Page Title */
+.page-title {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+/* Profile */
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.available {
+  color: green;
+  font-weight: 500;
+}
+
+/* Icons */
+.icon-btn {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  cursor: pointer;
+}
+
+/* Button */
+.contact-btn {
+  background: #0d0c2b;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+
+
+
+
+/* Section Styling */
+.intro-section {
+  font-family: "Poppins", sans-serif;
+  background: #f5f5f7;
+}
+.explore_btn{
+  padding-top: 15px;
+}
+
+/* Text Container */
+
+.hero-section_five {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  height: 900px;
+  background-image: url(food.webp);
+  background-repeat: no-repeat;
+}
+.info_text{
+  padding-top:30px ;
+}
+
+.info h6 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #fe6d0b;
+  padding-top: 10px;
+}
+.info h3,
+h6 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+.info p {
+  text-align: center;
+  color: #666;
+}
+.images {
+  text-align: center;
+  padding: 20px;
+}
+
+.images img {
+  width: 100%;
+  height: 320px;
+  border-radius: 10px;
+}
+
+.images p {
+  color: #8a8a8a;
+  font-size: 15px;
+  margin: 20px 10px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.btn {
+  padding: 10px 40px;
+  border-radius: 25px;
+  background: transparent;
+  border: 1px black solid;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: rgb(84, 84, 230);
+}
+
+.btn:hover {
+  border: 2px solid #7a5cff;
+  background: #7a5cff;
+  color: white;
+}
+.mul_cards {
+  background-color: rgb(234, 226, 208);
+  /* margin: 60px 150px; */
+  padding: 50px 70px;
+}
+.text h6 {
+  color: orange;
+  font-size: 20px;
+  text-align: center;
+}
+.text h3 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+.text p {
+  text-align: center;
+  color: #666;
+}
+.chocolates {
+  /* border: 2px solid red; */
+  margin-bottom: 20px;
+}
+
+.food-card_one {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.food-card_one img {
+  width: 100%;
+  height: 220px;
+
+  object-fit: cover;
+  cursor: pointer;
+}
+.food-card_two {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.food-card_two img {
+  width: 100%;
+  height: 300px;
+
+  top: 10%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* Rating Badge */
+.rating {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: yellow;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Card Body */
+.food-body {
+  padding: 15px;
+}
+
+/* Price Circle */
+.price {
+  position: absolute;
+  right: 15px;
+  bottom: 85px;
+  background: #6f42c1;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* Stars */
+.stars {
+  color: orange;
+  font-size: 14px;
+}
+.cakearea {
+  padding: 60px 100px 30px 180px;
+  align-items: center;
+}
+.textarea {
+  padding-bottom: 30px;
+}
+.textarea h6 {
+  color: orange;
+  font-size: 20px;
+  text-align: center;
+}
+.textarea h2 {
+  text-align: center;
+  font-size: 40px;
+   font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.textarea p {
+  text-align: center;
+}
+
+
+.cakes img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  /* padding:0px 10px ; */
+}
+/* .cakes_2 img {
+  width: 100%;
+  height: auto;
+} */
+.txt {
+  font-size: 27px;
+  font-weight: 600;
+  text-shadow: #2b2828;
+  padding: 20px 60px 0px 10px;
+}
+.cakearea {
+  overflow: hidden;
+}
+.deliver_info {
+  background-color: #fff5f2;
+}
+.deliver {
+  padding: 190px 50px;
+  align-items: center;
+}
+
+.deliver h2 {
+  font-weight: 600;
+  color: #101038;
+  padding-bottom: 20px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+.deliver p {
+  font-weight: 500;
+  color: #666;
+}
+.last-area {
+  background-color: #6f42c1;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.last-area ul li {
+  list-style: none;
+  text-align: justify;
+  align-items: center;
+}
+.last-area ul a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.last-area h3 {
+  color: white;
+  padding-bottom: 10px;
+  padding-right: 200px;
+}
+.name {
+  padding: 60px 0px 30px 0px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.heart{
+  color: red;
+  font-size: 30px;
+  padding-top: 5px;
+}
